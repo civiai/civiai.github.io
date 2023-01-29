@@ -1,55 +1,71 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: white;
-  color: black;
-}
+<style>
+  /* reset default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  color: blue;
-}
+  /* header */
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: blue;
-  color: white;
-}
+  header h1 {
+    font-size: 2em;
+    color: darkslategray;
+    margin-bottom: 20px;
+  }
 
-.header h1 {
-  margin: 0;
-  font-size: 36px;
-}
+  /* navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
 
-.header a {
-  color: white;
-  text-decoration: none;
-}
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
 
-.header a:hover {
-  text-decoration: underline;
-}
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: darkslategray;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
 
-.content {
-  padding: 20px;
-}
+  nav a:hover {
+    background-color: lightgray;
+  }
 
-.content p {
-  font-size: 18px;
-  line-height: 1.5;
-}
+  /* main content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+  }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: black;
-  color: white;
-}
+  section {
+    padding: 20px;
+  }
 
-.footer p {
-  margin: 0;
-  font-size: 14px;
-}
+  section h2 {
+    font-size: 1.5em;
+    color: darkslategray;
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+  footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: darkslategray;
+  }
+</style>
