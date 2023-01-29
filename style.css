@@ -1,71 +1,60 @@
-<style>
-  /* reset default styles */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+body {
+  background-color: #FFC0CB;
+  font-family: Arial, sans-serif;
+}
 
-  /* header */
-  header {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-  }
+header {
+  text-align: center;
+  background-color: #FFA07A;
+  padding: 20px;
+}
 
-  header h1 {
-    font-size: 2em;
-    color: darkslategray;
-    margin-bottom: 20px;
-  }
+header h1 {
+  font-size: 48px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #000000;
+}
 
-  /* navigation */
-  nav {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
 
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
+section {
+  background-color: #90EE90;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  box-shadow: 2px 2px 4px #000000;
+  margin: 20px;
+}
 
-  nav a {
-    display: block;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    color: darkslategray;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-  }
+section h2 {
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #000000;
+}
 
-  nav a:hover {
-    background-color: lightgray;
-  }
+section ul {
+  list-style: none;
+  padding: 0;
+  color: #000000;
+  font-size: 24px;
+}
 
-  /* main content */
-  main {
-    max-width: 800px;
-    margin: 20px auto;
-  }
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  section {
-    padding: 20px;
-  }
-
-  section h2 {
-    font-size: 1.5em;
-    color: darkslategray;
-    margin-bottom: 20px;
-  }
-
-  /* footer */
-  footer {
-    background-color: lightgray;
-    padding: 20px;
-    text-align: center;
-    font-size: 1.2em;
-    color: darkslategray;
-  }
-</style>
+footer {
+  background-color: #ADD8E6;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #000000;
+}
